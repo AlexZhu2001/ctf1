@@ -1,2 +1,4 @@
 port: 7890
-mode: direct
+mode: rule
+tunnels:
+  - tcp/udp,ys.pku.edu.cn,127.0.0.1,proxy
